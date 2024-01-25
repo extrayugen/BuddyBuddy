@@ -7,18 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F03C0D92B629FCD006134B4 /* Background_loop.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1F03C0D82B629F9E006134B4 /* Background_loop.mp4 */; };
 		1F785C772B6242C500896E10 /* myBuddyBuddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F785C762B6242C500896E10 /* myBuddyBuddyApp.swift */; };
-		1F785C792B6242C500896E10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F785C782B6242C500896E10 /* ContentView.swift */; };
 		1F785C7B2B6242C800896E10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F785C7A2B6242C800896E10 /* Assets.xcassets */; };
 		1F785C7E2B6242C800896E10 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F785C7D2B6242C800896E10 /* Preview Assets.xcassets */; };
+		1F785CB92B6247CE00896E10 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F785CB82B6247CE00896E10 /* LoginView.swift */; };
+		1F785CBC2B6248A400896E10 /* AuthFieldModifiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F785CBB2B6248A400896E10 /* AuthFieldModifiler.swift */; };
+		1F785CBE2B6248E200896E10 /* AuthActionButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F785CBD2B6248E200896E10 /* AuthActionButtonModifier.swift */; };
+		1F785CC12B62491600896E10 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F785CC02B62491600896E10 /* RegistrationView.swift */; };
+		1F785CC32B624A9C00896E10 /* BuddyLogoModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F785CC22B624A9C00896E10 /* BuddyLogoModifier.swift */; };
+		1F785CC82B62606D00896E10 /* VideoBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F785CC72B62606D00896E10 /* VideoBackgroundView.swift */; };
+		1F785CCA2B62621D00896E10 /* Background.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1F785CC92B6261AB00896E10 /* Background.mp4 */; };
+		1F785CCC2B626D8300896E10 /* ThreadsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F785CCB2B626D8300896E10 /* ThreadsTabView.swift */; };
+		1F785CCE2B62811200896E10 /* buddy_login.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1F785CCD2B62811200896E10 /* buddy_login.mp3 */; };
+		1F785CD02B62811700896E10 /* buddy_newMessage.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1F785CCF2B62811700896E10 /* buddy_newMessage.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F03C0D82B629F9E006134B4 /* Background_loop.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Background_loop.mp4; sourceTree = "<group>"; };
 		1F785C732B6242C500896E10 /* myBuddyBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myBuddyBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F785C762B6242C500896E10 /* myBuddyBuddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myBuddyBuddyApp.swift; sourceTree = "<group>"; };
-		1F785C782B6242C500896E10 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1F785C7A2B6242C800896E10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F785C7D2B6242C800896E10 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1F785CB82B6247CE00896E10 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		1F785CBB2B6248A400896E10 /* AuthFieldModifiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthFieldModifiler.swift; sourceTree = "<group>"; };
+		1F785CBD2B6248E200896E10 /* AuthActionButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthActionButtonModifier.swift; sourceTree = "<group>"; };
+		1F785CC02B62491600896E10 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		1F785CC22B624A9C00896E10 /* BuddyLogoModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuddyLogoModifier.swift; sourceTree = "<group>"; };
+		1F785CC72B62606D00896E10 /* VideoBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoBackgroundView.swift; sourceTree = "<group>"; };
+		1F785CC92B6261AB00896E10 /* Background.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Background.mp4; sourceTree = "<group>"; };
+		1F785CCB2B626D8300896E10 /* ThreadsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsTabView.swift; sourceTree = "<group>"; };
+		1F785CCD2B62811200896E10 /* buddy_login.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = buddy_login.mp3; sourceTree = "<group>"; };
+		1F785CCF2B62811700896E10 /* buddy_newMessage.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = buddy_newMessage.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +71,13 @@
 		1F785C752B6242C500896E10 /* myBuddyBuddy */ = {
 			isa = PBXGroup;
 			children = (
+				1F785CB62B62478400896E10 /* Models */,
+				1F785CB52B62474700896E10 /* Views */,
+				1F785CB72B62479500896E10 /* ViewModels */,
+				1F785CBA2B62486600896E10 /* Modifiers */,
+				1F785CC42B62591100896E10 /* Utilities */,
+				1F785CB42B6246D200896E10 /* Supporting files */,
 				1F785C762B6242C500896E10 /* myBuddyBuddyApp.swift */,
-				1F785C782B6242C500896E10 /* ContentView.swift */,
 				1F785C7A2B6242C800896E10 /* Assets.xcassets */,
 				1F785C7C2B6242C800896E10 /* Preview Content */,
 			);
@@ -65,6 +90,59 @@
 				1F785C7D2B6242C800896E10 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1F785CB42B6246D200896E10 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		1F785CB52B62474700896E10 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1F785CB82B6247CE00896E10 /* LoginView.swift */,
+				1F785CC02B62491600896E10 /* RegistrationView.swift */,
+				1F785CCB2B626D8300896E10 /* ThreadsTabView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1F785CB62B62478400896E10 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1F785CB72B62479500896E10 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1F785CBA2B62486600896E10 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				1F785CBB2B6248A400896E10 /* AuthFieldModifiler.swift */,
+				1F785CBD2B6248E200896E10 /* AuthActionButtonModifier.swift */,
+				1F785CC22B624A9C00896E10 /* BuddyLogoModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		1F785CC42B62591100896E10 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				1F785CC72B62606D00896E10 /* VideoBackgroundView.swift */,
+				1F785CCD2B62811200896E10 /* buddy_login.mp3 */,
+				1F785CCF2B62811700896E10 /* buddy_newMessage.mp3 */,
+				1F785CC92B6261AB00896E10 /* Background.mp4 */,
+				1F03C0D82B629F9E006134B4 /* Background_loop.mp4 */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +204,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F785C7E2B6242C800896E10 /* Preview Assets.xcassets in Resources */,
+				1F785CCE2B62811200896E10 /* buddy_login.mp3 in Resources */,
 				1F785C7B2B6242C800896E10 /* Assets.xcassets in Resources */,
+				1F785CCA2B62621D00896E10 /* Background.mp4 in Resources */,
+				1F785CD02B62811700896E10 /* buddy_newMessage.mp3 in Resources */,
+				1F03C0D92B629FCD006134B4 /* Background_loop.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +219,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F785C792B6242C500896E10 /* ContentView.swift in Sources */,
+				1F785CC32B624A9C00896E10 /* BuddyLogoModifier.swift in Sources */,
+				1F785CBE2B6248E200896E10 /* AuthActionButtonModifier.swift in Sources */,
+				1F785CC82B62606D00896E10 /* VideoBackgroundView.swift in Sources */,
+				1F785CB92B6247CE00896E10 /* LoginView.swift in Sources */,
+				1F785CCC2B626D8300896E10 /* ThreadsTabView.swift in Sources */,
+				1F785CBC2B6248A400896E10 /* AuthFieldModifiler.swift in Sources */,
 				1F785C772B6242C500896E10 /* myBuddyBuddyApp.swift in Sources */,
+				1F785CC12B62491600896E10 /* RegistrationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +367,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,6 +396,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
