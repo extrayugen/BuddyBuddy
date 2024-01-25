@@ -11,7 +11,7 @@ struct LoginView: View {
     var body: some View {
         NavigationStack {
                 ZStack {
-                    VideoBackgroundView(videoName: "Background_loop", videoType: "mp4")
+                    VideoBackgroundView(videoName: "Background_8s_Loop", videoType: "mp4")
                         .scaledToFill()
                     
                     VStack {
@@ -24,8 +24,10 @@ struct LoginView: View {
                         VStack {
                             TextField("Enter your username", text: $userName)
                                 .modifier(AuthFieldModifier())
+
                             SecureField("Enter your password", text: $password)
                                 .modifier(AuthFieldModifier())
+                            
                         }
                         
                         NavigationLink {

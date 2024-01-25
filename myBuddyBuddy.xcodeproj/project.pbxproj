@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1F03C0D92B629FCD006134B4 /* Background_loop.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1F03C0D82B629F9E006134B4 /* Background_loop.mp4 */; };
 		1F03C0DB2B62ACF3006134B4 /* Background_reverse.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1F03C0DA2B62ACF3006134B4 /* Background_reverse.mp4 */; };
+		1F03C0E12B62BBB4006134B4 /* Background_8s_Loop.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1F03C0E02B62BBB4006134B4 /* Background_8s_Loop.mp4 */; };
 		1F785C772B6242C500896E10 /* myBuddyBuddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F785C762B6242C500896E10 /* myBuddyBuddyApp.swift */; };
 		1F785C7B2B6242C800896E10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F785C7A2B6242C800896E10 /* Assets.xcassets */; };
 		1F785C7E2B6242C800896E10 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F785C7D2B6242C800896E10 /* Preview Assets.xcassets */; };
@@ -27,6 +28,7 @@
 /* Begin PBXFileReference section */
 		1F03C0D82B629F9E006134B4 /* Background_loop.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Background_loop.mp4; sourceTree = "<group>"; };
 		1F03C0DA2B62ACF3006134B4 /* Background_reverse.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Background_reverse.mp4; sourceTree = "<group>"; };
+		1F03C0E02B62BBB4006134B4 /* Background_8s_Loop.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Background_8s_Loop.mp4; sourceTree = "<group>"; };
 		1F785C732B6242C500896E10 /* myBuddyBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myBuddyBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F785C762B6242C500896E10 /* myBuddyBuddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myBuddyBuddyApp.swift; sourceTree = "<group>"; };
 		1F785C7A2B6242C800896E10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 				1F785CC92B6261AB00896E10 /* Background.mp4 */,
 				1F03C0DA2B62ACF3006134B4 /* Background_reverse.mp4 */,
 				1F03C0D82B629F9E006134B4 /* Background_loop.mp4 */,
+				1F03C0E02B62BBB4006134B4 /* Background_8s_Loop.mp4 */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 			files = (
 				1F785C7E2B6242C800896E10 /* Preview Assets.xcassets in Resources */,
 				1F785CCE2B62811200896E10 /* buddy_login.mp3 in Resources */,
+				1F03C0E12B62BBB4006134B4 /* Background_8s_Loop.mp4 in Resources */,
 				1F785C7B2B6242C800896E10 /* Assets.xcassets in Resources */,
 				1F785CCA2B62621D00896E10 /* Background.mp4 in Resources */,
 				1F03C0DB2B62ACF3006134B4 /* Background_reverse.mp4 in Resources */,
