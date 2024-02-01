@@ -15,5 +15,5 @@
 - Pretendard
 - Jalnan2
 
-## 데모 (추억의 경험을 위해 볼륨을 올려주세요!)
+## 데모 ( ** 추억의 경험을 위해 볼륨을 올려주세요! ** )
 https://github.com/extrayugen/BuddyBuddy/assets/59593892/9dedb73c-cfa2-4c28-a5ee-59708e78990e
