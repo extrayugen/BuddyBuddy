@@ -14,7 +14,6 @@ struct RegistrationView: View {
                 .resizable()
                 .modifier(BuddyLogoModifier(width: 350, height: 250))
 
-            
             VStack {
                 SecureField("Enter your username", text: $userName)
                     .modifier(AuthFieldModifier())
