@@ -1,8 +1,12 @@
-//
-//  TextFontModifier.swift
-//  myBuddyBuddy
-//
-//  Created by t2023-m0031 on 1/30/24.
-//
+import SwiftUI
 
-import Foundation
+struct TextFontModifier: ViewModifier{
+    func body(content: Content) -> some View {
+        content
+            .font(.custom("Jalnan2", size :20))
+            .foregroundStyle(.white)
+            .frame(width: 352, height: 44)
+            .background(.green)
+            .clipShape(RoundedRectangle(cornerRadius: 8))
+    }
+}

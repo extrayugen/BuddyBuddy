@@ -38,5 +38,6 @@ struct MainTabView: View {
 
 
 #Preview {
-    MainTabView().environment(\.managedObjectContext, CoreDataManager.shared.viewContext)
+    MainTabView()
+
 }
