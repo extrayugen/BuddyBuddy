@@ -4,15 +4,15 @@ import CoreData
 struct TaskListView: View {
     @ObservedObject var viewModel: TaskViewModel
 
-    init(viewModel: TaskViewModel) {
-        self.viewModel = viewModel
-    }
-
     var body: some View {
         NavigationView {
             List {
                 ForEach(viewModel.tasks) { task in
                     Text(task.title ?? "Untitled")
+                        .onTapGesture {
+                            // Task를 탭했을 때 수정 동작 실행
+                            viewModel.updateTask(task)
+                        }
                 }
                 .onDelete(perform: deleteTask)
             }
@@ -23,7 +23,7 @@ struct TaskListView: View {
 
     var addButton: some View {
         Button(action: {
-            viewModel.addTask(title: "New Task")
+            viewModel.addTask()
         }) {
             Image(systemName: "plus")
         }
@@ -36,8 +36,7 @@ struct TaskListView: View {
     }
 }
 
-struct TaskListView_Previews: PreviewProvider {
-    static var previews: some View {
-        TaskListView(viewModel: TaskViewModel(context: PersistenceController.shared.container.viewContext))
-    }
+
+#Preview {
+    TaskListView(viewModel: TaskViewModel(context: CoreDataManager.shared.viewContext))
 }

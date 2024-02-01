@@ -1,14 +1,13 @@
 import SwiftUI
-import AVFoundation
 
 @main
 struct myBuddyBuddyApp: App {
-    let coreDataManager = CoreDataManger.shared
+    let coreDataManager = CoreDataManager.shared
 
     var body: some Scene {
         WindowGroup {
             LoginView()
-                .environment(\.managedObjectContext, coreDataManager.persistentContainer.viewContext)
+                .environment(\.managedObjectContext, coreDataManager.viewContext)
         }
     }
 }
